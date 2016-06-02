@@ -1,0 +1,6 @@
+framework module PokeDexLib {
+  umbrella header "PokeDexLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

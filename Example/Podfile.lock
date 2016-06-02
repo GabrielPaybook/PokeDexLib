@@ -1,0 +1,16 @@
+PODS:
+  - PokeDexLib (0.1.0)
+
+DEPENDENCIES:
+  - PokeDexLib (from `../`)
+
+EXTERNAL SOURCES:
+  PokeDexLib:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PokeDexLib: 844b1b8c08b7b81d9e8825990d5dfe76d81a4324
+
+PODFILE CHECKSUM: dbc18317c76f23af0a3a7f3e9ef2ac8155813ad5
+
+COCOAPODS: 1.0.0
