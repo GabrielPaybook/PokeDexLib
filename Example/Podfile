@@ -1,0 +1,6 @@
+use_frameworks!
+target 'PokeDexLib_Tests' do
+  pod 'PokeDexLib', :path => '../'
+  
+  
+end
