@@ -1,6 +1,6 @@
 import UIKit
 import XCTest
-import PokeDexLib
+
 
 class Tests: XCTestCase {
     

@@ -30,8 +30,12 @@ let pokemons = [
         "tipo" : "agua",
         "desc" : "El caparazón de Squirtle no le sirve de protección únicamente. Su forma redondeada y las hendiduras que tiene le ayudan a deslizarse en el agua y le permiten nadar a gran velocidad.",
         "debilidad" : "electrico,planta"
+    ],
+    "Spearow" : [
+        "tipo" : "volador",
+        "desc" : "Spearow pía con tanta fuerza que se le puede oír a 1 km de distancia. Si al agudo chillido le sigue una especie de eco, estaremos oyendo la respuesta de otros Spearow que contestan ante el aviso de peligro.",
+        "debilidad" : "electrico,hielo,roca"
     ]
-    
     
 ]
 

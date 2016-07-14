@@ -1,5 +1,7 @@
 PODS:
-  - PokeDexLib (0.1.0)
+  - Alamofire (3.4.1)
+  - PokeDexLib (0.1.2):
+    - Alamofire (~> 3.4)
 
 DEPENDENCIES:
   - PokeDexLib (from `../`)
@@ -9,8 +11,9 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  PokeDexLib: 844b1b8c08b7b81d9e8825990d5dfe76d81a4324
+  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  PokeDexLib: 6ef836aa73bc126c783cd3163d0ac3c3c904b240
 
 PODFILE CHECKSUM: dbc18317c76f23af0a3a7f3e9ef2ac8155813ad5
 
-COCOAPODS: 1.0.0
+COCOAPODS: 1.0.1
