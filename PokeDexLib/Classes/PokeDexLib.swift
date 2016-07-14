@@ -36,7 +36,7 @@ let pokemons = [
 ]
 
 /// Search pokemon
-public func rest(name:String) ->[String:String]? {
+public func PDSearchPokemon(name:String) ->[String:String]? {
     if let pokemon = pokemons[name] {
         return pokemon
     }else{

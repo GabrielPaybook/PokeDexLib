@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		14152B881D00A737006C29DA /* PokeDexLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14152B871D00A737006C29DA /* PokeDexLib.swift */; };
 		42698D1B87D21755427B46B202C27FFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		54FCB55F36B9871636872504 /* Pods_PokeDexLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0B12F6C0DD02D749315938D /* Pods_PokeDexLib.framework */; };
 		6519BCCBC381E85E69568BDDF6362F44 /* PokeDexLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24ECCB51AE6F53FA0AC75C89D9657BAF /* PokeDexLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		807A76DECDA2B3C29608BC7B39EBDE4D /* PokeDexLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 683C17E018CD65025606601C8410575F /* PokeDexLib-dummy.m */; };
 		A8DADCF87EC2507C5D32BCA167B56BB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
@@ -42,6 +43,7 @@
 		8B0BF2332C42AE3FBF2A66ECD1E9C1E0 /* Pods-PokeDexLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PokeDexLib_Tests-resources.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		99997FB6D26C589DE940B3ED6CC787A5 /* Pods-PokeDexLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PokeDexLib_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A0B12F6C0DD02D749315938D /* Pods_PokeDexLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PokeDexLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D2AF3D9F43D8A9057D8D463E5C54C5AF /* Pods-PokeDexLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PokeDexLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DC2D305BB01A4C250F14F3AC9EA5A8A0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42698D1B87D21755427B46B202C27FFA /* Foundation.framework in Frameworks */,
+				54FCB55F36B9871636872504 /* Pods_PokeDexLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +73,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D381A3A635DB8A295877E5E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +145,7 @@
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				5C45C656CBF5F7D87EDA2ECD4C861719 /* Products */,
 				C20E91EA25E404FE59C8BF3535DF3C5D /* Targets Support Files */,
+				0D381A3A635DB8A295877E5E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -150,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+				A0B12F6C0DD02D749315938D /* Pods_PokeDexLib.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -224,9 +236,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 70FE872EB28211B1970E29309B439CC5 /* Build configuration list for PBXNativeTarget "PokeDexLib" */;
 			buildPhases = (
+				F53B80282540B23C8A5B50BE /* 📦 Check Pods Manifest.lock */,
 				12F30A15F135D281C134F6F5667C8BD1 /* Sources */,
 				11A1C57821FC773D8D5E7449FD6A7308 /* Frameworks */,
 				95EE1CB79B464D1ACEDB1137714EBAA7 /* Headers */,
+				92C9434ECF466DCA3F368E00 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,7 +260,7 @@
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "_Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -263,6 +277,39 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		92C9434ECF466DCA3F368E00 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PokeDexLib/Pods-PokeDexLib-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F53B80282540B23C8A5B50BE /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		12F30A15F135D281C134F6F5667C8BD1 /* Sources */ = {
@@ -505,7 +552,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "_Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
