@@ -47,3 +47,16 @@ public func PDSearchPokemon(name:String) ->[String:String]? {
         return nil
     }
 }
+
+
+
+/// Search pokemon
+public func PDListPokemon(name:String) ->[String]? {
+    var array = [String]()
+    
+    for (name,value) in pokemons{
+        array.append(name)
+    }
+    
+    return array
+}
